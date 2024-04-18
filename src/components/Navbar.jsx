@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
-import second from "../assets/close.svg";
-
 function NavItem({ title, isMobile }) {
   return (
     <li className={isMobile ? "p-4 " : "p-4 border-b border-gray-500"}>
