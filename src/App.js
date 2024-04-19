@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Analytics from "./components/Analytics";
 import Newsletter from "./components/Newsletter";
+import PriceCards from "./components/PriceCards";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Analytics />
 
       <Newsletter />
+      <PriceCards />
+      <Footer />
     </div>
   );
 }
